@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+}
+
+h1,
+h2 {
+  color: black;
+  text-align: center;
+  text-shadow: 0px 1px #ddd;
+  text-transform: capitalize;
+
+}
+
+h2 {
+
+  font-size: 18px;
+  text-shadow: none;
+}
+
+span {
+  color: #0f0;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+
+}
+
+.gameBox {
+  width: 330px;
+  height: auto;
+  border-radius: 25px;
+  padding: 20px;
+  Aspect-ratio: 1;
+  background: black;
+
+  columns: 3;
+  gap: 2px;
+  border: 2px solid #000;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.cell {
+  background: lightblue;
+  width: 100%;
+  height: auto;
+  Aspect-ratio: 1;
+  border: 1px solid black;
+  box-shadow: inset 0 0 10px black;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 250ms;
+}
+
+.Reset {
+  padding-block: 6px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-inline: 20px;
+  background: blue;
+  color: black;
+  box-shadow: 0 0 5px black;
+}
+
+.display {
+  border: 2px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
